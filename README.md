@@ -8,14 +8,18 @@ techniques.
 * https://docs.scala-lang.org/tour/unified-types.html
 * https://www.scala-lang.org/api/2.12.3/scala/Any.html
 
+## Credits
+
+Thanks to @soffes for allowing me to repurpose the gem `Any`!
+
 ## Usage
 
 Note that I'm using Qo here. If these two issues are
 added in Ruby 2.6+ it'll enable us to do this without
 the need for Qo:
 
-Hash#===  - https://bugs.ruby-lang.org/issues/14869
-Array#=== - https://bugs.ruby-lang.org/issues/14916
+* Hash#===  - https://bugs.ruby-lang.org/issues/14869
+* Array#=== - https://bugs.ruby-lang.org/issues/14916
 
 I've commented on each to note this.
 
