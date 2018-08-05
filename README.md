@@ -10,7 +10,9 @@ techniques.
 
 ## Credits
 
-Thanks to @soffes for allowing me to repurpose the gem `Any`!
+Thanks to [@soffes](https://github.com/soffes) for allowing me to repurpose the gem `Any`!
+
+The original will be maintained at versions 0.0.1 and 0.0.2 from [this repo](https://github.com/soffes/any)
 
 ## Usage
 
