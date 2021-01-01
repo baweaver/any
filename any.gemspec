@@ -11,8 +11,13 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{An Any type, much like Scala, that matches anything.}
   # spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "https://www.github.com/baweaver/any"
+  spec.homepage      = "https://github.com/baweaver/any"
   spec.license       = "MIT"
+
+  spec.metadata      = {
+    "source_code_uri" => "https://github.com/baweaver/any",
+    "bug_tracker_uri" => "https://github.com/baweaver/any/issues",
+  }
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
